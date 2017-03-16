@@ -1,0 +1,166 @@
+
+body{
+    color: black;
+    background-color:#FAFFD1;
+    background-image: url("C:\Users\User\Documents\YOGA\IMAGES\logo.png");
+    
+}
+header{
+    background-color:mediumseagreen;
+    color: black;
+    
+}
+header h1{
+    font-size: 4em;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+header h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section#carousel >figure >img{
+    display: none;
+    margin: 0px auto;
+    width: 665px;
+    height: 350px;
+}
+
+section#carousel >figure.visible >img{
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+section#carousel >figure> figcaption{
+    display: none;
+}
+
+section#carousel >figure.visible >figcaption{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+section#menu li{
+    display: inline;
+}
+section#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+section#menu li {
+    float: left;
+}
+
+section#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+section#menu li a:hover {
+    background-color: #111;
+}
+section#menu .active {
+    background-color: #4CAF50;
+}
+
+main section h3,h4{
+    color: black;
+    background-color: palegreen;
+}
+
+main section{
+    margin: 5px 0px;
+    padding: 5px 5px;
+    box-shadow: -1px -1px 6px #888888;
+}
+main section>img{
+    width: 665px;
+    height: 350px;
+}
+section#header{
+    text-align: center;
+     border-width: 20px;
+    border-color:lightseagreen;
+    border-style: groove;
+}
+#body div.content {
+	overflow: hidden;
+}
+#body div.content > div {
+	float: left;
+	width: 510px;
+}
+#body div.content img.figure {
+	margin: 0 38px 46px 0;
+}
+#body div.content div div.section {
+	padding: 55px 0 0;
+	width: 430px;
+}
+#body div.content div div.section span {
+	display: block;
+	line-height: 30px;
+}
+#body div.content div ul {
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0 0 65px;
+}
+#body div.content div ul li {
+	float: left;
+	margin: 0 0 0 83px;
+	width: 207px;
+}
+#body div.content div ul li:first-child {
+	margin: 0;
+}
+#body div.content div ul li img {
+	display: block;
+	max-width: 100%;
+	width: auto;
+}
+#footer {
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 30px 0 60px;
+}
+#footer div {
+	float: left;
+	width: 500px;
+}
+#footer div span {
+	color:black;
+	display: block;
+	font-size: 26px;
+    font-weight: bold;
+	line-height: 24px;
+}
+#footer div p {
+	color:black;
+	font-size: 12px;
+    font-weight: bold;
+	line-height: 30px;
+}
+form fieldset legend{
+    font-size: 30px;
+    color: mediumvioletred;
+}
+form fieldset {
+    font-weight: bold;
+    color: darkblue;
+}
